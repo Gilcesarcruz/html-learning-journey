@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Developer Survey</h1>
+    <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="language">Programming language</label>
+        <select id="language" name="language" required>
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="javascript">javascript</option>
+            <option value="python">python</option>
+        </select>
+
+        <p>Experience Level</p>
+        <input type="radio" id="beginner" name="experience" value="beginner" required>
+        <label for="beginner">Beginner</label>
+
+        <input type="radio" id="intermediate" name="experience" value="intermediate" required>
+        <label for="intermediate">Intermediate</label>
+        
+        <input type="radio" id="advanced" name="experience" value="advanced" required>
+        <label for="advanced">Advanced</label>
+
+        <p>What do you want to learn?</p>
+        <input type="checkbox" id="html" name="learn" value="html">
+        <label for="html">html</label>
+
+        <input type="checkbox" id="css" name="learn" value="css">
+        <label for="css">css</label>
+
+        <input type="checkbox" id="javascript" name="learn" value="javascript">
+        <label for="javascript">javascript</label>
+
+        <label for="message">your message</label>
+        <textarea id="message" name="message" rows="5" cols="30" placeholder="Write a message" required></textarea>
+
+        <button type="submit">Submit Survey</button>
+    </form>
+</body>
+</html>
